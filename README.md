@@ -1,5 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FdVrU54p)
 # [Project Title — e.g., Hospital Admission Records Analysis]
+ Hospital Admission Records Analysis
+
 
 > **Lab 1 starter repo** — Replace the heading above with your project title. Team member names are not part of the lab — they go in Section 2 of your completed README in the integration task.
 
@@ -7,7 +9,9 @@
 
 ## Project Overview
 
-TODO: Write 2–3 sentences describing what this project does and who it is for.
+This project analyzes hospital admission records to identify patterns in patient admissions and healthcare utilization.
+The goal is to build a reproducible environment that allows team members to run data analysis and visualization consistently.
+The project is designed for data analysts and healthcare researchers who need reliable insights from hospital data.
 
 ---
 
