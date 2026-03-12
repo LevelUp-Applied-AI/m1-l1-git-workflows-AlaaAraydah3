@@ -16,19 +16,40 @@ The project is designed for data analysts and healthcare researchers who need re
 ## Setup Instructions
 
 ```bash
-python -m venv .venv
+git clone <repo-url>
+cd <repo-name>
 
-# Activate — choose the command for your OS:
-# Mac / Linux:      source .venv/bin/activate
-# Windows Git Bash: source .venv/Scripts/activate
-# Windows CMD:      .venv\Scripts\activate.bat
-# Windows PowerShell: .venv\Scripts\Activate.ps1
+# Mac / Linux
+source .venv/bin/activate
 
+# Windows Git Bash
+source .venv/Scripts/activate
+
+# Windows CMD
+.venv\Scripts\activate.bat
+
+# Windows PowerShell
+.venv\Scripts\Activate.ps1
+
+# then 
 pip install -r requirements.txt
-python test_environment.py    # should print "Environment OK"
-```
+python test_environment.py   # test_environment.py should print Environment OK when the setup is correct.
 
----
+# Project Structure
+project-name/
+├── README.md             — Project overview and setup instructions
+├── CHANGELOG.md          — Record of notable changes
+├── AGENTS.md             — AI contribution policy
+├── requirements.txt      — Python dependencies
+├── setup.sh              — Automated environment setup script
+├── test_environment.py   — Environment validation
+├── .gitignore            — Files excluded from version control
+├── src/                  — Production source code (importable modules)
+├── notebooks/            — Exploratory analysis notebooks
+├── data/                 — Data directory (contents not committed to Git)
+│   └── raw/              — Original unmodified data files
+└── tests/                — Automated tests
+
 
 ## Contributing
 
